@@ -10,5 +10,6 @@ package com.jd.o2o.smart.study;
 public class TestStudy {
     public static void main(String[] args) {
         System.out.println("hello world!");
+        System.out.println("hello world!");
     }
 }
