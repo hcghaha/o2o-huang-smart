@@ -1,4 +1,4 @@
-package com.jd.o2o.smart.common;
+package com.jd.o2o.smart.common.reflection;
 
 import com.jd.o2o.smart.common.annotation.FieldMeta;
 import com.jd.o2o.smart.common.annotation.obj.OrderMoney;
@@ -7,13 +7,9 @@ import java.lang.reflect.Field;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
- * User: huangchaoguang
- * Date: 16-8-12
- * Time: 上午10:56
- * To change this template use File | Settings | File Templates.
+ * Created by huangchaoguang on 2016/8/30.
  */
-public class TestCommon {
+public class TestReflection {
     public static void main(String[] args){
 
         OrderMoney orderMoney1 = new OrderMoney();
@@ -21,7 +17,7 @@ public class TestCommon {
         orderMoney1.setCouponVoucherType(-1);
         orderMoney1.setJingBeanDiscount(-1L);
         orderMoney1.setStartCharge(null);
-        TestCommon test = new TestCommon();
+        TestReflection test = new TestReflection();
         boolean flag = test.checkMoney(orderMoney1);
         if (flag){
             System.out.println("1通过");
@@ -89,7 +85,6 @@ public class TestCommon {
         }
         return true;
     }
-
     /**
      * 递归方式
      * @param obj
