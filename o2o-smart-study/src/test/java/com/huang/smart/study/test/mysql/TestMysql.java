@@ -6,12 +6,11 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 /**
- * Created with IntelliJ IDEA.
  * User: huangchaoguang
  * Date: 16-8-3
  * Time: 下午2:27
- * To change this template use File | Settings | File Templates.
- * 功能：测试数据事务
+ * Version: 1.0
+ * Goal：测试数据事务
  */
 public class TestMysql {
     public static void main(String args[]){

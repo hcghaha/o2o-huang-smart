@@ -3,7 +3,11 @@ package com.huang.smart.study.concurrency;
 import java.util.List;
 
 /**
- * Created by huangchaoguang on 2016/8/29.
+ * Goal：the function of class
+ * User:  huangchaoguang
+ * Date: 2016/8/29
+ * Time: 10:30
+ * Version: 1.0
  */
 public class Money {
     private Long price;

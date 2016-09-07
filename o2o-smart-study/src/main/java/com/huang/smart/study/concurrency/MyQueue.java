@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * 生成消费模型 demo
+ * Goal：生成消费模型 demo
  * User: huangchaoguang
  * Date: 16-8-12
  * Time: 上午10:58
