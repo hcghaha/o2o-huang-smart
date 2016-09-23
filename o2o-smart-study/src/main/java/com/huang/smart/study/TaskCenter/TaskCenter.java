@@ -36,9 +36,9 @@ public class TaskCenter {
         scheduleManagerFactory.setApplicationContext(ctx);
 
         scheduleManagerFactory.init(p);
-        DataSyncABean dataSyncABean =  (DataSyncABean)ctx.getBean("dataSyncABean") ;
-        System.out.println(dataSyncABean.getStr());
-        System.out.println(ctx.getBeanDefinitionCount());
-        System.out.println("haha");
+//        DataSyncABean dataSyncABean =  (DataSyncABean)ctx.getBean("dataSyncABean") ;
+//        System.out.println(dataSyncABean.getStr());
+//        System.out.println(ctx.getBeanDefinitionCount());
+//        System.out.println("haha");
     }
 }
